@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64" tilecount="5" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="tiles/black.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="tiles/blue.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="tiles/grey.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="tiles/purple.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="tiles/white.png"/>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="15">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,2,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,2,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,2,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,2,5,5,5,5,
+5,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,5,5,5,
+5,5,5,5,5,5,5,5,5,3,5,5,5,5,5,5,3,5,5,5,
+5,5,5,5,5,5,5,5,5,3,5,5,5,5,5,5,3,5,5,5,
+5,5,5,5,5,5,5,2,5,3,3,3,3,3,3,3,3,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+ </layer>
+</map>
